@@ -45,7 +45,7 @@ export function obtenerLetraDNI(dni: string): string {
   // Calcular el índice dividiendo el DNI entre 23 y obteniendo el resto
   const indice: number = numeroDNI % 23;
 
-  // Retornar la letra correspondiente
+  // Retornar la letra correspondiente.
   return letras[indice];
 }
 
